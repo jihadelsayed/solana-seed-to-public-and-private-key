@@ -15,6 +15,8 @@ def copyRight():
             |_____||____/      \____||____||__|__||__|__||_____|    |_____||_____|      \___||__|__||____/ |_____||_____|
             look at www.neetechs.com for more script
             """ + '\033[0m')
+print(copyRight())
+
 # Function to get the public key from a Keypair
 def get_public_key_from_keypair():
     keypair = Keypair()
