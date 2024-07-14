@@ -29,3 +29,24 @@ pip install solana
    ```bash
    git clone https://github.com/jihadelsayed/solana-seed-to-public-and-private-key.git
    cd solana-seed-to-public-and-private-key
+## Usage
+
+1. Run the script:
+   ```bash
+   python solana-seed-to-public-and-private-key.py
+   ```
+
+2. Enter your mnemonic phrase when prompted:
+   ```
+   Please enter your seed phrase: your-seed-phrase-here
+   ```
+
+3. The script will generate a new keypair and display the Ethereum address and private key:
+   ```
+   Address: <generated-address>
+   Private Key: <generated-private-key>
+   ```
+
+## License
+
+This project is licensed under the MIT License.
